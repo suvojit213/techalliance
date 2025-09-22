@@ -2,6 +2,7 @@
   "name": "techalliance",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://suvojit213.github.io/techalliance/",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.13",
     "lucide-react": "^0.544.0",

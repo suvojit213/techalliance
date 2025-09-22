@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Menu, X, Calendar, User, ArrowRight, Smartphone, Laptop, Gamepad2, Headphones, Star, TrendingUp, Clock, Eye } from 'lucide-react';
+import { Search, Menu, X, ArrowRight, Smartphone, Laptop, Gamepad2, Headphones, Star, TrendingUp, Clock, Eye } from 'lucide-react';
 
 const TechAlliance = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,11 +48,11 @@ const TechAlliance = () => {
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Reviews</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">News</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Guides</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Apps</a>
+              <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Home</a>
+              <a href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Reviews</a>
+              <a href="/news" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">News</a>
+              <a href="/guides" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Guides</a>
+              <a href="/apps" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Apps</a>
             </nav>
 
             {/* Search & Menu */}
@@ -80,11 +80,11 @@ const TechAlliance = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-b border-gray-200 px-4 py-4">
           <nav className="flex flex-col space-y-3">
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">News</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Guides</a>
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Apps</a>
+            <a href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+            <a href="/reviews" className="text-gray-700 hover:text-blue-600 font-medium">Reviews</a>
+            <a href="/news" className="text-gray-700 hover:text-blue-600 font-medium">News</a>
+            <a href="/guides" className="text-gray-700 hover:text-blue-600 font-medium">Guides</a>
+            <a href="/apps" className="text-gray-700 hover:text-blue-600 font-medium">Apps</a>
           </nav>
         </div>
       )}

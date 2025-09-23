@@ -17,7 +17,7 @@ const MainContent = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 rounded-2xl border border-primary-200">
+          <div className="bg-gradient-to-br from-primary-50 to-primary-100 dark:from-gray-700 dark:to-gray-800 p-6 rounded-2xl border border-primary-200 dark:border-gray-600">
             <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center mb-4">
               <Smartphone className="h-5 w-5 text-white" />
             </div>
@@ -25,7 +25,7 @@ const MainContent = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">Stay updated with the newest apps and digital tools.</p>
           </div>
 
-          <div className="bg-gradient-to-br from-accent-50 to-accent-100 p-6 rounded-2xl border border-accent-200">
+          <div className="bg-gradient-to-br from-accent-50 to-accent-100 dark:from-gray-700 dark:to-gray-800 p-6 rounded-2xl border border-accent-200 dark:border-gray-600">
             <div className="w-10 h-10 bg-accent-500 rounded-xl flex items-center justify-center mb-4">
               <TrendingUp className="h-5 w-5 text-white" />
             </div>
@@ -33,7 +33,7 @@ const MainContent = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">From smartphones to software updates, get it all in one place.</p>
           </div>
 
-          <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-6 rounded-2xl border border-green-100">
+          <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-gray-700 dark:to-gray-800 p-6 rounded-2xl border border-green-100 dark:border-gray-600">
             <div className="w-10 h-10 bg-green-500 rounded-xl flex items-center justify-center mb-4">
               <Laptop className="h-5 w-5 text-white" />
             </div>
@@ -41,7 +41,7 @@ const MainContent = () => {
             <p className="text-gray-600 dark:text-gray-400 text-sm">Learn how to make the most out of apps, websites, and tech services.</p>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-50 to-red-50 p-6 rounded-2xl border border-orange-100">
+          <div className="bg-gradient-to-br from-orange-50 to-red-50 dark:from-gray-700 dark:to-gray-800 p-6 rounded-2xl border border-orange-100 dark:border-gray-600">
             <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center mb-4">
               <Star className="h-5 w-5 text-white" />
             </div>

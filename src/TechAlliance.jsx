@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Categories from './components/Categories';
-import MainContent from './components/MainContent';
-import Sidebar from './components/Sidebar';
-import Footer from './components/Footer';
+import Header from './components/Header.jsx';
+import HeroSection from './components/HeroSection.jsx';
+import Categories from './components/Categories.jsx';
+import MainContent from './components/MainContent.jsx';
+import Sidebar from './components/Sidebar.jsx';
+import Footer from './components/Footer.jsx';
 import { Smartphone, Laptop, Gamepad2, Headphones } from 'lucide-react';
 
 const TechAlliance = () => {

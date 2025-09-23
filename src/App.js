@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { ThemeProvider } from './contexts/ThemeContext';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import News from './pages/News';
-import Reviews from './pages/Reviews';
-import Guides from './pages/Guides';
-import Apps from './pages/Apps';
-import Search from './pages/Search';
-import SingleNews from './pages/SingleNews';
-import SingleReview from './pages/SingleReview';
+import { ThemeProvider } from './contexts/ThemeContext.js';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import Home from './pages/Home.jsx';
+import News from './pages/News.jsx';
+import Reviews from './pages/Reviews.jsx';
+import Guides from './pages/Guides.jsx';
+import Apps from './pages/Apps.jsx';
+import Search from './pages/Search.jsx';
+import SingleNews from './pages/SingleNews.jsx';
+import SingleReview from './pages/SingleReview.jsx';
 
 const App = () => {
   return (

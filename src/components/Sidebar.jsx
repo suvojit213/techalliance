@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NewsletterSubscription from './NewsletterSubscription';
+import NewsletterSubscription from './NewsletterSubscription.jsx';
 
 const Sidebar = ({ trendingTopics }) => {
   const [currentTime, setCurrentTime] = useState(new Date());

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Menu, X } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from './ThemeToggle.jsx';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

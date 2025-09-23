@@ -5,6 +5,7 @@ module.exports = {
     "./public/index.html",
     "./*.{js,jsx,ts,tsx,html}", // Include files in the root directory
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
   },

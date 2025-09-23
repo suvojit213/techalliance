@@ -28,5 +28,18 @@
     "author": "John Smith",
     "readTime": 10,
     "image": "/images/blog-post-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "h",
+    "description": "h",
+    "author": "h",
+    "date": "september 23, 2025",
+    "image": "h",
+    "tags": [
+      "AI"
+    ],
+    "content": "hsisjdjdjdjdjdjdjdkdjfjfnjfmfkckckc",
+    "comments": []
   }
 ]

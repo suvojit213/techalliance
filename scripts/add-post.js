@@ -43,7 +43,7 @@ const questions = [
     message: 'Enter tags for the post (comma-separated):',
   },
   {
-    type: 'editor',
+    type: 'input',
     name: 'content',
     message: 'Enter the content of the post:',
   },

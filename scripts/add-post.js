@@ -1,7 +1,7 @@
 
-const inquirer = require('inquirer');
-const fs = require('fs');
-const path = require('path');
+import inquirer from 'inquirer';
+import fs from 'fs';
+import path from 'path';
 
 const dataDir = path.join(process.cwd(), 'src', 'data');
 

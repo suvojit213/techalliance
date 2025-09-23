@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import reviewsData from '../data/reviews.json';
 import { Star } from 'lucide-react';
 
@@ -8,7 +9,7 @@ const Reviews = () => {
       <h1 className="text-3xl font-bold text-gray-800 mb-8">Reviews</h1>
       <div className="grid gap-8">
         {reviewsData.map((review) => (
-          <div key={review.id} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col sm:flex-row gap-6">
+          <Link to={`/reviews/${review.id}`} key={review.id} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 flex flex-col sm:flex-row gap-6 hover:shadow-lg transition-shadow">
             <div className="sm:w-1/3">
               <img src={review.image} alt={review.title} className="rounded-lg object-cover w-full h-48 sm:h-full" />
             </div>
@@ -22,7 +23,7 @@ const Reviews = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

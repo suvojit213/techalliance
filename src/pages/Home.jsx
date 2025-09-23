@@ -27,7 +27,7 @@ const Home = () => {
         <div className="lg:col-span-3 space-y-8">
           <HeroSection />
           <Categories categories={categories} />
-          <MainContent />
+          <MainContent id="main-content" />
         </div>
         <Sidebar trendingTopics={trendingTopics} />
       </div>

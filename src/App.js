@@ -8,6 +8,8 @@ import Reviews from './pages/Reviews';
 import Guides from './pages/Guides';
 import Apps from './pages/Apps';
 import Search from './pages/Search';
+import SingleNews from './pages/SingleNews';
+import SingleReview from './pages/SingleReview';
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
+          <Route path="/news/:id" element={<SingleNews />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/reviews/:id" element={<SingleReview />} />
           <Route path="/guides" element={<Guides />} />
           <Route path="/apps" element={<Apps />} />
           <Route path="/search" element={<Search />} />

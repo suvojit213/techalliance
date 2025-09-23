@@ -15,11 +15,9 @@
     <div id="root"></div>
     <script>
       (function () {
-        var query = window.location.search;
-        if (query.startsWith('?p=')) {
-          var path = query.substring(3);
-          window.history.replaceState(null, null, path);
-        }
+        var path = window.location.pathname;
+        var redirect = path.substring(0, path.lastIndexOf('/')) + '/index.html';
+        window.location.replace(redirect + '?p=' + path);
       })();
     </script>
   </body>

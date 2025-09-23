@@ -1,32 +1,12 @@
 [
   {
     "id": 1,
-    "title": "iPhone 16 Pro Review: A Worthy Upgrade?",
-    "excerpt": "We put the latest iPhone through its paces to see if it lives up to the hype.",
-    "category": "Smartphones",
-    "date": "2025-09-20",
-    "author": "Gadget Guru",
-    "rating": 4.5,
-    "image": "/images/review-1.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Samsung Galaxy Z Fold 7 Review: The Future is Now",
-    "excerpt": "Is the new foldable from Samsung a gimmick or a game-changer? We find out.",
-    "category": "Smartphones",
-    "date": "2025-09-15",
-    "author": "Techie Tom",
-    "rating": 4,
-    "image": "/images/review-2.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Sony WH-1000XM6 Review: Still the King of Noise-Cancelling Headphones?",
-    "excerpt": "Sony's latest headphones promise even better noise cancellation and audio quality. Do they deliver?",
-    "category": "Audio",
-    "date": "2025-09-10",
-    "author": "Audiofile Amy",
-    "rating": 5,
-    "image": "/images/review-3.jpg"
+    "title": "Revolutionizing Mobile Photography: A Deep Dive into the ApexPhone X",
+    "description": "The ApexPhone X sets a new standard for smartphone cameras, blending innovative hardware with advanced computational photography to deliver unparalleled image quality.",
+    "author": "Tech Alliance Reviews",
+    "date": "September 23, 2025",
+    "image": "/images/apexphone-x-review.jpg",
+    "tags": ["Smartphone", "Review", "Photography", "ApexPhone X", "Tech"],
+    "content": "The smartphone market is fiercely competitive, with manufacturers constantly pushing the boundaries of what's possible in a handheld device. The ApexPhone X enters this arena not just as another contender, but as a true game-changer, particularly in the realm of mobile photography. From its meticulously engineered lens system to its groundbreaking AI-driven image processing, every aspect of the ApexPhone X is designed to elevate your photographic experience.\n\nAt the heart of its prowess is a multi-lens setup featuring a massive 1-inch primary sensor, a first for a mainstream smartphone. This larger sensor captures significantly more light, resulting in stunning detail and dynamic range, even in challenging low-light conditions. Complementing this is an ultra-wide lens with an unprecedented 150-degree field of view, perfect for expansive landscapes and creative perspectives. The telephoto lens, offering a 10x optical zoom, brings distant subjects into sharp focus without any noticeable loss in quality.\n\nBeyond the hardware, the ApexPhone X leverages a dedicated neural processing unit (NPU) to power its computational photography suite. Features like 'Pro-Vision HDR' intelligently merge multiple exposures to create breathtakingly vibrant and balanced images, while 'NightSight 2.0' transforms dimly lit scenes into bright, detailed photographs with remarkable clarity. Portrait mode has also seen significant improvements, with more accurate edge detection and a natural-looking bokeh effect that rivals professional DSLR cameras.\n\nBut the ApexPhone X isn't just about taking great photos; it's about making the entire process intuitive and enjoyable. The camera app is redesigned for ease of use, offering both automated settings for casual users and extensive manual controls for enthusiasts. Video capabilities are equally impressive, with support for 8K recording at 60fps and advanced stabilization that makes shaky footage a thing of the past.\n\nIn conclusion, the ApexPhone X is more than just a smartphone with a good camera; it's a portable photography studio that fits in your pocket. While its premium price tag might be a barrier for some, the unparalleled imaging capabilities and overall user experience make it a worthwhile investment for anyone serious about mobile photography. It truly revolutionizes what we expect from a smartphone camera."
   }
 ]

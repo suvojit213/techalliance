@@ -7,7 +7,7 @@ const MainContent = () => {
       {/* Main Post */}
       <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-sm border border-gray-100 dark:border-gray-700">
         <div className="flex items-center space-x-4 mb-6">
-          <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl flex items-center justify-center">
+          <div className="w-12 h-12 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl flex items-center justify-center">
             <TrendingUp className="h-6 w-6 text-white" />
           </div>
           <div>
@@ -17,16 +17,16 @@ const MainContent = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-2xl border border-blue-100">
-            <div className="w-10 h-10 bg-blue-500 rounded-xl flex items-center justify-center mb-4">
+          <div className="bg-gradient-to-br from-primary-50 to-primary-100 p-6 rounded-2xl border border-primary-200">
+            <div className="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center mb-4">
               <Smartphone className="h-5 w-5 text-white" />
             </div>
             <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Latest Apps & Tools</h4>
             <p className="text-gray-600 dark:text-gray-400 text-sm">Stay updated with the newest apps and digital tools.</p>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-2xl border border-purple-100">
-            <div className="w-10 h-10 bg-purple-500 rounded-xl flex items-center justify-center mb-4">
+          <div className="bg-gradient-to-br from-accent-50 to-accent-100 p-6 rounded-2xl border border-accent-200">
+            <div className="w-10 h-10 bg-accent-500 rounded-xl flex items-center justify-center mb-4">
               <TrendingUp className="h-5 w-5 text-white" />
             </div>
             <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Tech News & Updates</h4>
@@ -55,17 +55,17 @@ const MainContent = () => {
       <div className="bg-white dark:bg-gray-800 rounded-3xl p-8 shadow-sm border border-gray-100 dark:border-gray-700">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-200">First Post Sneak Peek</h3>
-          <div className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">
+          <div className="bg-primary-100 text-primary-600 px-3 py-1 rounded-full text-sm font-medium">
             Coming Soon
           </div>
         </div>
         
-        <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-6 text-white">
+        <div className="bg-gradient-to-r from-primary-500 to-accent-600 rounded-2xl p-6 text-white">
           <h4 className="text-xl font-bold mb-3">Top 5 Apps to Boost Productivity in 2025</h4>
-          <p className="text-blue-100 mb-4">
+          <p className="text-primary-100 mb-4">
             This is just a glimpse of the quality guides and tech updates you'll find regularly on Tech Alliance.
           </p>
-          <div className="flex items-center space-x-4 text-blue-200 text-sm">
+          <div className="flex items-center space-x-4 text-primary-200 text-sm">
             <div className="flex items-center space-x-1">
               <Clock className="h-4 w-4" />
               <span>5 min read</span>
@@ -79,14 +79,14 @@ const MainContent = () => {
       </div>
 
       {/* Development Notice */}
-      <div className="bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 border border-amber-200 dark:border-amber-700 rounded-2xl p-6">
+      <div className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900/20 dark:to-gray-950/20 border border-gray-200 dark:border-gray-700 rounded-2xl p-6">
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 bg-amber-500 rounded-lg flex items-center justify-center">
+          <div className="w-8 h-8 bg-accent-500 rounded-lg flex items-center justify-center">
             <span className="text-white font-bold">⚠️</span>
           </div>
           <div>
-            <h4 className="font-semibold text-amber-800 dark:text-amber-200">Under Development</h4>
-            <p className="text-amber-600 dark:text-amber-300">
+            <h4 className="font-semibold text-gray-800 dark:text-gray-200">Under Development</h4>
+            <p className="text-gray-600 dark:text-gray-400">
               The website is under development, so stay tuned for more exciting updates, articles, and tech insights!
             </p>
           </div>

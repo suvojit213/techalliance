@@ -23,24 +23,24 @@ const Header = () => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-primary-600 to-accent-600 rounded-xl flex items-center justify-center">
                 <span className="text-white font-bold text-lg">TA</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
                   <Link to="/">Tech Alliance</Link>
                 </h1>
-                <p className="text-xs text-gray-500 dark:text-gray-400">Tech lovers + gadgets + knowledge hub</p>
+                <p className="text-xs text-gray-600 dark:text-gray-400">Tech lovers + gadgets + knowledge hub</p>
               </div>
             </div>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors">Home</Link>
-              <Link to="/reviews" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors">Reviews</Link>
-              <Link to="/news" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors">News</Link>
-              <Link to="/guides" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors">Guides</Link>
-              <Link to="/apps" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 font-medium transition-colors">Apps</Link>
+              <Link to="/" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">Home</Link>
+              <Link to="/reviews" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">Reviews</Link>
+              <Link to="/news" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">News</Link>
+              <Link to="/guides" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">Guides</Link>
+              <Link to="/apps" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors">Apps</Link>
             </nav>
 
             {/* Search & Menu */}
@@ -50,7 +50,7 @@ const Header = () => {
                 <input 
                   type="text" 
                   placeholder="Search tech news..." 
-                  className="bg-transparent border-none outline-none text-sm w-48 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400"
+                  className="bg-transparent border-none outline-none text-sm w-48 text-gray-800 dark:text-gray-200 placeholder-gray-500 dark:placeholder-gray-400"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
@@ -88,11 +88,11 @@ const Header = () => {
             </button>
           </div>
           <nav className="flex flex-col space-y-6">
-            <Link to="/" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsMenuOpen(false)}>Home</Link>
-            <Link to="/reviews" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsMenuOpen(false)}>Reviews</Link>
-            <Link to="/news" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsMenuOpen(false)}>News</Link>
-            <Link to="/guides" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsMenuOpen(false)}>Guides</Link>
-            <Link to="/apps" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" onClick={() => setIsMenuOpen(false)}>Apps</Link>
+            <Link to="/" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400" onClick={() => setIsMenuOpen(false)}>Home</Link>
+            <Link to="/reviews" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400" onClick={() => setIsMenuOpen(false)}>Reviews</Link>
+            <Link to="/news" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400" onClick={() => setIsMenuOpen(false)}>News</Link>
+            <Link to="/guides" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400" onClick={() => setIsMenuOpen(false)}>Guides</Link>
+            <Link to="/apps" className="text-xl font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400" onClick={() => setIsMenuOpen(false)}>Apps</Link>
           </nav>
         </div>
       </div>

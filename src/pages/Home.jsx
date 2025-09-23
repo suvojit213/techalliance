@@ -7,8 +7,8 @@ import { Smartphone, Laptop, Gamepad2, Headphones } from 'lucide-react';
 
 const Home = () => {
   const categories = [
-    { name: 'Smartphones', icon: Smartphone, color: 'text-blue-500' },
-    { name: 'Laptops', icon: Laptop, color: 'text-purple-500' },
+    { name: 'Smartphones', icon: Smartphone, color: 'text-primary-500' },
+    { name: 'Laptops', icon: Laptop, color: 'text-accent-500' },
     { name: 'Gaming', icon: Gamepad2, color: 'text-green-500' },
     { name: 'Audio', icon: Headphones, color: 'text-red-500' }
   ];

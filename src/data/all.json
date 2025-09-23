@@ -1,0 +1,70 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "First Post Sneak Peek: Top 5 Apps to Boost Productivity in 2025",
+      "excerpt": "This is just a glimpse of the quality guides and tech updates you'll find regularly on Tech Alliance.",
+      "category": "Apps",
+      "date": "2025-09-23",
+      "author": "Tech Alliance Team",
+      "readTime": 5,
+      "image": "/images/blog-post-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Future of Gaming: Trends to Watch in the Next Decade",
+      "excerpt": "From cloud gaming to VR, we explore the technologies that will shape the future of interactive entertainment.",
+      "category": "Gaming",
+      "date": "2025-09-22",
+      "author": "Jane Doe",
+      "readTime": 8,
+      "image": "/images/blog-post-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "A Deep Dive into the Latest Smartphone Cameras",
+      "excerpt": "We compare the camera systems of the latest flagship smartphones to see which one comes out on top.",
+      "category": "Smartphones",
+      "date": "2025-09-21",
+      "author": "John Smith",
+      "readTime": 10,
+      "image": "/images/blog-post-3.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "title": "iPhone 16 Pro Review: A Worthy Upgrade?",
+      "excerpt": "We put the latest iPhone through its paces to see if it lives up to the hype.",
+      "category": "Smartphones",
+      "date": "2025-09-20",
+      "author": "Gadget Guru",
+      "rating": 4.5,
+      "image": "/images/review-1.jpg"
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "title": "The Ultimate Guide to Setting Up Your Smart Home",
+      "excerpt": "A step-by-step guide to building a smart home that works for you.",
+      "category": "Smart Home",
+      "date": "2025-09-19",
+      "author": "DIY Hacker",
+      "readTime": 15,
+      "image": "/images/guide-1.jpg"
+    }
+  ],
+  "apps": [
+    {
+      "id": 1,
+      "title": "Top 5 Apps for Learning a New Language",
+      "excerpt": "We review the best apps to help you become a polyglot in no time.",
+      "category": "Education",
+      "date": "2025-09-18",
+      "author": "App Explorer",
+      "downloads": "1M+",
+      "image": "/images/app-1.jpg"
+    }
+  ]
+}

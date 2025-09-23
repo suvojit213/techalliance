@@ -16,7 +16,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <Router basename="/techalliance">
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900 transition-colors">
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900 transition-colors pt-5">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

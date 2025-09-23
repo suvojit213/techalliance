@@ -42,10 +42,15 @@ const questions = [
     name: 'tags',
     message: 'Enter tags for the post (comma-separated):',
   },
+  {
+    type: 'editor',
+    name: 'content',
+    message: 'Enter the content of the post:',
+  },
 ];
 
 inquirer.prompt(questions).then((answers) => {
-  const { postType, title, description, author, date, image, tags } = answers;
+  const { postType, title, description, author, date, image, tags, content } = answers;
 
   const filePath = path.join(dataDir, `${postType}.json`);
 
@@ -64,6 +69,7 @@ inquirer.prompt(questions).then((answers) => {
       date,
       image,
       tags: tags.split(',').map(tag => tag.trim()),
+      content,
       comments: [],
     };
 

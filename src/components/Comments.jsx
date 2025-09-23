@@ -2,15 +2,15 @@ import React, { useEffect, useRef } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 
 const Comments = ({ 
-  repo = 'username/repository', // Replace with your GitHub repo
-  repoId = '', // Replace with your repo ID
+  repo = 'suvojit213/techalliance', // Replace with your GitHub repo
+  repoId = 'R_kgDOP02bNQ', // Replace with your repo ID
   category = 'General',
-  categoryId = '', // Replace with your category ID
+  categoryId = 'DIC_kwDOP02bNc4Cvy3I', // Replace with your category ID
   mapping = 'pathname',
   strict = '0',
   reactionsEnabled = '1',
   emitMetadata = '0',
-  inputPosition = 'top',
+  inputPosition = 'bottom',
   loading = 'lazy',
   className = ''
 }) => {
@@ -36,7 +36,7 @@ const Comments = ({
     script.setAttribute('data-reactions-enabled', reactionsEnabled);
     script.setAttribute('data-emit-metadata', emitMetadata);
     script.setAttribute('data-input-position', inputPosition);
-    script.setAttribute('data-theme', isDark ? 'dark' : 'light');
+    script.setAttribute('data-theme', 'preferred_color_scheme');
     script.setAttribute('data-lang', 'en');
     script.setAttribute('data-loading', loading);
     script.crossOrigin = 'anonymous';
